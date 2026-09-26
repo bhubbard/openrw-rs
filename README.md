@@ -1,6 +1,6 @@
 # openrw-rs
 
-[![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-orange?style=flat-square&logo=github)](https://bhubbard.github.io/openrw-rs/)
+[![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-orange?style=flat-square&logo=github)](https://code.brandonhubbard.com/openrw-rs/)
 [![Tests](https://img.shields.io/badge/tests-20%20passed-success?style=flat-square&logo=rust)](https://github.com/bhubbard/openrw-rs)
 [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue?style=flat-square)](LICENSE-MIT)
 
