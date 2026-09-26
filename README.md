@@ -1,5 +1,9 @@
 # openrw-rs
 
+[![GitHub Pages](https://img.shields.io/badge/docs-GitHub%20Pages-orange?style=flat-square&logo=github)](https://bhubbard.github.io/openrw-rs/)
+[![Tests](https://img.shields.io/badge/tests-20%20passed-success?style=flat-square&logo=rust)](https://github.com/bhubbard/openrw-rs)
+[![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-blue?style=flat-square)](LICENSE-MIT)
+
 Pure Rust port of core GTA III gameplay mechanics inspired by [OpenRW](https://github.com/rwengine/openrw), architected for modularity and modern ECS game engines such as [Bevy](https://bevyengine.org/).
 
 ## Features
