@@ -491,9 +491,9 @@ impl PlayerStateMachine {
                         to: next,
                     });
                     self.current_state = next;
-                } else if ctx.wants_to_shoot && ctx.active_weapon_id.is_some() {
+                } else if let (true, Some(weapon_id)) = (ctx.wants_to_shoot, ctx.active_weapon_id) {
                     let next = PlayerState::Shoot {
-                        weapon_id: ctx.active_weapon_id.unwrap(),
+                        weapon_id,
                         timer: 0.0,
                         recovery: 0.25,
                     };
@@ -502,9 +502,9 @@ impl PlayerStateMachine {
                         to: next,
                     });
                     self.current_state = next;
-                } else if ctx.wants_to_aim && ctx.active_weapon_id.is_some() {
+                } else if let (true, Some(weapon_id)) = (ctx.wants_to_aim, ctx.active_weapon_id) {
                     let next = PlayerState::Aim {
-                        weapon_id: ctx.active_weapon_id.unwrap(),
+                        weapon_id,
                     };
                     event = Some(StateTransitionEvent {
                         from: self.current_state,

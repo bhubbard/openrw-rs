@@ -309,6 +309,7 @@ impl AutoAimSystem {
 }
 
 /// Ballistics and projectile physics calculations (rockets, grenades, mortars, sniper drop).
+#[derive(Debug, Clone, Copy, PartialEq, Eq, Default)]
 pub struct BallisticSolver;
 
 impl BallisticSolver {
